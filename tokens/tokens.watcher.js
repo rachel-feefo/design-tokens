@@ -10,7 +10,9 @@ fs.watchFile(inputFile, (curr, prev) => {
     if (err) throw err;
 
     // Process the file contents and modify as needed
-    const updatedData = data.replace(/"value":/g, '"$value":').replace(/"type":/g, '"$type":');
+    const updatedData = data.replace(/"description":/g, '"$description":')
+                            .replace(/"value":/g, '"$value":')
+                            .replace(/"type":/g, '"$type":');
 
     // Write the modified contents to the output file
     fs.writeFile(outputFile, updatedData, 'utf8', (err) => {
