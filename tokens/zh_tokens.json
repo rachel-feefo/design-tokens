@@ -1,5 +1,4 @@
 {
-    "global-feefo": {
       "deeper-blue": {
         "$value": "#9D9BFC",
         "$type": "color"
@@ -203,5 +202,4 @@
         "$value": "Aeonik",
         "$type": "fontFamilies"
       }
-    }
   }
