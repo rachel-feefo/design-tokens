@@ -137,23 +137,31 @@
         "$type": "dimension"
       },
       "dimension-75": {
-        "$value": "0.75",
+        "$value": "0.75rem",
         "$type": "dimension"
       },
       "dimension-50": {
-        "$value": "0.5",
+        "$value": "0.5rem",
         "$type": "dimension"
       },
       "dimension-25": {
-        "$value": "0.25",
+        "$value": "0.25rem",
         "$type": "dimension"
       },
       "dimension-12": {
-        "$value": "0.125",
+        "$value": "0.125rem",
         "$type": "dimension"
       },
       "dimension-6": {
         "$value": "0.625rem",
+        "$type": "dimension"
+      },
+      "dimension-test": {
+        "$value": "1",
+        "$type": "dimension"
+      },
+      "dimension-test-relative": {
+        "$value": "{dimension-test} * 5",
         "$type": "dimension"
       },
       "dimension-0": {
