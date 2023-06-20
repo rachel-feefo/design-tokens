@@ -1,16 +1,48 @@
 
 // Do not edit directly
-// Generated on Tue, 20 Jun 2023 16:23:43 GMT
+// Generated on Tue, 20 Jun 2023 17:00:07 GMT
 
-$color-base-gray-light: #cccccc;
-$color-base-gray-medium: #999999;
-$color-base-gray-dark: #111111;
-$color-base-red: #ff0000;
-$color-base-green: #00ff00;
-$color-font-base: #ff0000;
-$color-font-secondary: #00ff00;
-$color-font-tertiary: #cccccc;
-$size-font-small: 0.75rem; // the small size of the font
-$size-font-medium: 1rem; // the medium size of the font
-$size-font-large: 2rem; // the large size of the font
-$size-font-base: 1rem; // the base size of the font
+$color-primary-blue-deeper: #9d9bfc;
+$color-primary-blue-pale: #4f4cfa;
+$color-primary-yellow: #ffd100;
+$color-primary-pink: #fdd0f6;
+$color-primary-white: #ffffff;
+$color-primary-black: #000000;
+$color-secondary-blue-pale-pale: #9d9bfc;
+$color-secondary-blue-cobalt: #e2eaf4;
+$color-secondary-blue-cobalt-pale: #f0f3f7;
+$color-secondary-black-off: #9d9bfc;
+$color-secondary-black-off-off: #292f36;
+$color-secondary-black-carbon: #6f7782;
+$color-secondary-silver: #ffd100;
+$color-secondary-silver-pale: #f7f9fa;
+$color-font-base: #000000;
+$color-font-secondary: #9d9bfc;
+$color-font-tertiary: #292f36;
+$color-functional-error: #bf2600;
+$color-functional-success: #227358;
+$color-functional-warning: #292f36;
+$color-functional-shade-error-bg: #ffede9;
+$color-functional-shade-success-bg: #bf2600;
+$color-functional-shade-warning-bg: #292f36;
+$color-functional-text-error-text: #bf2600;
+$color-functional-text-success-text: #227358;
+$color-functional-text-warning-text: #7a4300;
+$color-action-focus: #5e9ed6;
+$font-font-global-font-size: 1rem; // the base font size is 1rem or 16px
+$font-font-global-line-height: 1rem * 1.25; // the base font size is 1rem or 16px
+$font-font-global-font-weight-normal: 400; // the normal base font weight is 400
+$font-font-global-font-weight-medium: 500; // the medium base font weight is 500
+$font-desktop-base-font-size: 1rem * 1.2; // desktop base font size
+$font-desktop-base-line-height: 1rem * 1.25 * 1.2; // desktop base line height
+$font-desktop-base-font-weight: 400; // the base desktop font weight is 400
+$font-desktop-title-font-size: 1rem * 1.2 * 1.25; // all titles
+$font-desktop-title-line-height: 1rem * 1.2 * 1.25 * 1.35; // desktop base line height
+$font-desktop-title-font-weight: 500; // the base font weight is 400
+$font-desktop-subtitle-font-size: 1rem * 1.2 * 1; // all subtitles
+$font-desktop-subtitle-line-height: 1rem * 1.2 * 1 * 1.25; // desktop base line height
+$font-desktop-subtitle-font-weight: 400; // the base desktop font weight is 400
+$size-font-scale-small: 0.75rem; // fix this - not real - the small size of the font
+$size-font-scale-medium: 1rem; // fix this - not real - the medium size of the font
+$size-font-scale-large: 2rem; // fix this - not real - the large size of the font
+$size-font-scale-base: 1rem; // fix this - not real - the base size of the font

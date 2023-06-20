@@ -1,21 +1,21 @@
 {
   "size": {
-    "font": {
+    "font-scale": {
       "small" : {
-        "value": "0.75",
-        "comment": "the small size of the font"
+        "value": "0.75rem",
+        "comment": "fix this - not real - the small size of the font"
       },
       "medium": {
-        "value": "1",
-        "comment": "the medium size of the font"
+        "value": "1rem",
+        "comment": "fix this - not real - the medium size of the font"
       },
       "large" : {
-        "value": "2",
-        "comment": "the large size of the font"
+        "value": "2rem",
+        "comment": "fix this - not real - the large size of the font"
       },
       "base"  : {
-        "value": "{size.font.medium.value}",
-        "comment": "the base size of the font"
+        "value": "{size.font-scale.medium.value}",
+        "comment": "fix this - not real - the base size of the font"
       }
     }
   }

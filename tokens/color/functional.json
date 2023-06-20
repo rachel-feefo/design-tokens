@@ -1,0 +1,23 @@
+{
+    "color": {
+      "functional": {
+        "error": {"value": "#BF2600"},
+        "success": {"value": "#227358"},
+        "warning": {"value": "#292F36"}
+      },
+      "functional-shade":   {
+        "error-bg": {"value": "#FFEDE9"},
+        "success-bg": {"value": "#BF2600"},
+        "warning-bg": {"value": "#292F36"}
+      },
+      "functional-text": {
+        "error-text": {"value": "{color.functional.error}"},
+        "success-text": {"value": "{color.functional.success}"},
+        "warning-text": {"value": "#7A4300" }
+      },
+      "action": {
+        "focus": {"value": "#5E9ED6"}
+      }
+    }
+  }
+  
