@@ -1,5 +1,4 @@
-{
- "deeper-blue": {
+{"deeper-blue": {
         "$value": "#9D9BFC",
         "$type": "color"
       },
@@ -88,48 +87,48 @@
         "$type": "color"
       },
       "dropdown-font-placeholder": {
-        "$value": "{off-off-black}",
+        "$value": "#4A5057",
         "$type": "color"
       },
       "dropdown-font-selected": {
-        "$value": "{off-black}",
+        "$value": "#292F36",
         "$type": "color"
       },
       "dropdown-border-gradient": {
-        "$value": "linear-gradient(90deg, {deeper-blue} 100%, {deeper-blue} 0%)",
+        "$value": "linear-gradient(90deg, #9D9BFC 100%, #9D9BFC 0%)",
         "$type": "gradient"
       },
       "dropdown-border-default": {
-        "$value": "{silver}",
+        "$value": "#BCC0C3",
         "$type": "color"
       },
       "dropdown-icon": {
-        "$value": "{off-black}",
+        "$value": "#292F36",
         "$type": "color"
       },
       "dropdown-shadow": {
-        "$value": "0 4px 10px 0 {deeper-blue} 50%",
+        "$value": "0 4px 10px 0 #9D9BFC 50%",
         "$type": "shadow"
       },
       "dropdown-disabled-bg": {
-        "$value": "{pale-silver}",
+        "$value": "#F7F9FA",
         "$type": "color"
       },
       "dropdown-disabled-text": {
-        "$value": "{dropdown-disabled-bg}",
+        "$value": "#F7F9FA",
         "$type": "color"
       },
       "dropdown-disabled-icon": {
-        "$value": "{dropdown-disabled-bg}",
+        "$value": "#F7F9FA",
         "$type": "color"
       },
       "form-shadow": {
-        "$value": "0 2px 8px 0 {deeper-blue} 14%",
+        "$value": "0 2px 8px 0 #9D9BFC 14%",
         "$type": "shadow"
       },
       "h1": {
         "$value": {
-          "fontFamily": "{Aeonik}",
+          "fontFamily": "Aeonik",
           "fontWeight": "500",
           "fontSize": "32",
           "paragraphSpacing": "30"
@@ -137,7 +136,10 @@
         "$type": "typography"
       },
       "h2": {
-        "$value": "{h1}/2",
+        "fontFamily": "Aeonik",
+        "fontWeight": "500",
+        "fontSize": "16",
+        "paragraphSpacing": "15",
         "$type": "typography"
       },
       "dimension-100": {
@@ -145,47 +147,43 @@
         "$type": "dimension"
       },
       "dimension-75": {
-        "$value": "{dimension-100} * 0.75",
+        "$value": "0.75rem",
         "$type": "dimension"
       },
       "dimension-50": {
-        "$value": "{dimension-100} * 0.5",
+        "$value": "0.5rem",
         "$type": "dimension"
       },
       "dimension-25": {
-        "$value": "{dimension-100} * 0.25",
+        "$value": "0.25rem",
         "$type": "dimension"
       },
       "dimension-12": {
-        "$value": "{dimension-100} * 0.125",
+        "$value": "0.125rem",
         "$type": "dimension"
       },
       "dimension-6": {
-        "$value": "{dimension-100} * 0.625",
+        "$value": "0.625rem",
         "$type": "dimension"
       },
       "dimension-0": {
-        "$value": "{dimension-100} * 0",
+        "$value": "0rem",
         "$type": "dimension"
       },
       "dimension-150": {
-        "$value": "{dimension-100} * 1.5",
+        "$value": "1.5rem",
         "$type": "dimension"
       },
       "dimension-200": {
-        "$value": "{dimension-100} * 2",
+        "$value": "2rem",
         "$type": "dimension"
       },
       "dimension-300": {
-        "$value": "{dimension-100} * 3",
+        "$value": "3rem",
         "$type": "dimension"
       },
       "dimension-400": {
-        "$value": "{dimension-100} * 4",
-        "$type": "dimension"
-      },
-      "dimension-base-16px-100": {
-        "$value": "16px",
+        "$value": "4rem",
         "$type": "dimension"
       },
       "Aeonik": {
