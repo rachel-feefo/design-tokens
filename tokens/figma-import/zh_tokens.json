@@ -137,19 +137,19 @@
         "$type": "dimension"
       },
       "dimension-75": {
-        "$value": "0.75rem",
+        "$value": "0.75",
         "$type": "dimension"
       },
       "dimension-50": {
-        "$value": "0.5rem",
+        "$value": "0.5",
         "$type": "dimension"
       },
       "dimension-25": {
-        "$value": "0.25rem",
+        "$value": "0.25",
         "$type": "dimension"
       },
       "dimension-12": {
-        "$value": "0.125rem",
+        "$value": "0.125",
         "$type": "dimension"
       },
       "dimension-6": {
@@ -179,5 +179,23 @@
       "Aeonik": {
         "$value": "Aeonik",
         "$type": "fontFamilies"
-      }
-  }
+      },
+      "font": {
+        "base-font-size" : {
+            "value": "1",
+            "comment": "the base font size is 1rem or 16px"
+        },
+        "desktop-base-font-size": {
+            "value": "1.2",
+            "comment": "desktop base font size"
+        },
+        "desktop-title" : {
+            "value": "{desktop-base-font-size} * 1.25",
+            "comment": "all titles"
+        },
+        "desktop-subtitle": {
+            "value": "{desktop-base-font-size} * 1",
+            "comment": "all subtitles"
+        }
+    }
+}
