@@ -157,7 +157,7 @@
         "$type": "dimension"
       },
       "dimension-test": {
-        "$value": "1",
+        "$value": "1px",
         "$type": "dimension"
       },
       "dimension-test-relative": {
