@@ -202,7 +202,7 @@
             "$type": "fontSizes"
         },
         "desktop-title" : {
-            "$value": "{desktop-base-font-size} * 1.25",
+            "$value": "{fontSizes.desktop-base-font-size} * 1.25",
             "$description": "all titles",
             "$type": "fontSizes"
         },
