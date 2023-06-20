@@ -1,0 +1,282 @@
+{
+    "font": {
+        "mobile": {
+            "form-title": {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1.5",
+                    "comment": "all form titles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.form-title.font-size} * 1.35",
+                    "comment": "mobile form title line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the from title font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "title": {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1.15",
+                    "comment": "all question titles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.title.font-size} * 1.3",
+                    "comment": "mobile title line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the title font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "subtitle": {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all subtitles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.subtitle.font-size} * 1.25",
+                    "comment": "mobile subtitle line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the subtitle mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "placeholder" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all placeholders",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.placeholder.font-size} * 1",
+                    "comment": "mobile placeholder line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the placeholder mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "placeholder-multi" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all multi-line placeholders",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.placeholder-multi.font-size} * 1.25",
+                    "comment": "mobile multi-line placeholders line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the multi-line placeholder mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "suffix" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.9",
+                    "comment": "all suffixes",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.suffix.font-size} * 1",
+                    "comment": "mobile suffix line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the suffix mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "hint-text" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all hint texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.hint-text.font-size} * 1.15",
+                    "comment": "mobile hint text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the hint text mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "error-text" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all error texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.error-text.font-size} * 1.25",
+                    "comment": "mobile error text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the error text mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "label" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.95",
+                    "comment": "all labels",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.label.font-size} * 1",
+                    "comment": "mobile label line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the label mobile font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "validation-text" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.9",
+                    "comment": "all validation texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.validation-text.font-size} * 1",
+                    "comment": "mobile validation text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the validation text mobile font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "button-text" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 1",
+                    "comment": "all button texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.button-text.font-size} * 1",
+                    "comment": "mobile button text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the button text mobile font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "terms-conditions" : {
+                "text" : {
+                    "font-size" : {
+                        "value": "{font.base.mobile.font-size} * 0.75",
+                        "comment": "all terms and conditions",
+                        "type": "font-size"
+                    },
+                    "line-height": {
+                        "value": "{font.mobile.terms-conditions.text.font-size} * 1.5",
+                        "comment": "mobile terms and conditions line height",
+                        "type": "line-height"
+                    },
+                    "font-weight": {
+                        "value": "{font.base.global.font-weight.normal}",
+                        "comment": "the terms and conditions mobile font weight is 400",
+                        "type": "font-weight"
+                    }
+                },
+                "link" : {
+                    "font-size" : {
+                        "value": "{font.base.mobile.font-size} * 0.75",
+                        "comment": "all links",
+                        "type": "font-size"
+                    },
+                    "line-height": {
+                        "value": "{font.mobile.terms-conditions.link.font-size} * 1.5",
+                        "comment": "mobile link line height",
+                        "type": "line-height"
+                    },
+                    "font-weight": {
+                        "value": "{font.base.global.font-weight.medium}",
+                        "comment": "the link mobile font weight is 500",
+                        "type": "font-weight"
+                    }
+                }     
+            },
+            "co-branding" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.75",
+                    "comment": "all co-branding texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.co-branding.font-size} * 1",
+                    "comment": "mobile co-branding line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the co-branding mobile font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "badge" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.1",
+                    "comment": "all badges",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.badge.font-size} * 1",
+                    "comment": "mobile badge line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the badge mobile font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "progress-indicator" : {
+                "font-size" : {
+                    "value": "{font.base.mobile.font-size} * 0.85",
+                    "comment": "all progress indicators",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.mobile.progress-indicator.font-size} * 1",
+                    "comment": "mobile progress indicator line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the progress indicator mobile font weight is 500",
+                    "type": "font-weight"
+                }
+            }
+        }
+    }
+}
+
+

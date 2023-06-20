@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 20 Jun 2023 17:00:07 GMT
+// Generated on Tue, 20 Jun 2023 19:23:55 GMT
 
 $color-primary-blue-deeper: #9d9bfc;
 $color-primary-blue-pale: #4f4cfa;
@@ -29,20 +29,124 @@ $color-functional-text-error-text: #bf2600;
 $color-functional-text-success-text: #227358;
 $color-functional-text-warning-text: #7a4300;
 $color-action-focus: #5e9ed6;
-$font-font-global-font-size: 1rem; // the base font size is 1rem or 16px
-$font-font-global-line-height: 1rem * 1.25; // the base font size is 1rem or 16px
-$font-font-global-font-weight-normal: 400; // the normal base font weight is 400
-$font-font-global-font-weight-medium: 500; // the medium base font weight is 500
-$font-desktop-base-font-size: 1rem * 1.2; // desktop base font size
-$font-desktop-base-line-height: 1rem * 1.25 * 1.2; // desktop base line height
-$font-desktop-base-font-weight: 400; // the base desktop font weight is 400
-$font-desktop-title-font-size: 1rem * 1.2 * 1.25; // all titles
-$font-desktop-title-line-height: 1rem * 1.2 * 1.25 * 1.35; // desktop base line height
-$font-desktop-title-font-weight: 500; // the base font weight is 400
+$dimension-base: 1rem;
+$dimension-space-0: 1rem * 0; // base space size 0
+$dimension-space-6: 1rem * 0.625; // base space size 6
+$dimension-space-12: 1rem * 0.125; // base space size 12
+$dimension-space-25: 1rem * 0.25; // base space size 25
+$dimension-space-50: 1rem * 0.5; // base space size 50
+$dimension-space-75: 1rem * 0.75; // base space size 75
+$dimension-space-100: 1rem * 1; // base space size 100
+$dimension-space-200: 1rem * 2; // base space size 200
+$dimension-space-300: 1rem * 3; // base space size 300
+$dimension-space-400: 1rem * 4; // base space size 400
+$dimension-desktop-form-title-padding: 1rem * 0.625; // all form titles padding
+$dimension-desktop-form-title-margin: 1rem * 0; // all form titles margin
+$dimension-desktop-title-padding: 1rem * 0; // all titles padding
+$dimension-desktop-title-margin: 1rem * 0; // all titles margin
+$font-base-global-font-size: 1rem; // the base font size is 1rem or 16px
+$font-base-global-line-height: 1rem * 1.25; // the base font size is 1rem or 16px
+$font-base-global-font-weight-normal: 400; // the normal base font weight is 400
+$font-base-global-font-weight-medium: 500; // the medium base font weight is 500
+$font-base-desktop-font-size: 1rem * 1.2; // desktop base font size
+$font-base-desktop-line-height: 1rem * 1.2 * 1.25; // desktop base line height
+$font-base-desktop-font-weight: 400; // the base desktop font weight is 400
+$font-base-mobile-font-size: 1rem * 1; // desktop base font size
+$font-base-mobile-line-height: 1rem * 1 * 1.3; // desktop base line height
+$font-base-mobile-font-weight: 400; // the base desktop font weight is 400
+$font-desktop-form-title-font-size: 1rem * 1.2 * 1.6; // all form titles
+$font-desktop-form-title-line-height: 1rem * 1.2 * 1.6 * 1.4; // desktop form title line height
+$font-desktop-form-title-font-weight: 500; // the from title font weight is 500
+$font-desktop-title-font-size: 1rem * 1.2 * 1.25; // all question titles
+$font-desktop-title-line-height: 1rem * 1.2 * 1.25 * 1.35; // desktop title line height
+$font-desktop-title-font-weight: 500; // the title font weight is 500
 $font-desktop-subtitle-font-size: 1rem * 1.2 * 1; // all subtitles
-$font-desktop-subtitle-line-height: 1rem * 1.2 * 1 * 1.25; // desktop base line height
-$font-desktop-subtitle-font-weight: 400; // the base desktop font weight is 400
-$size-font-scale-small: 0.75rem; // fix this - not real - the small size of the font
-$size-font-scale-medium: 1rem; // fix this - not real - the medium size of the font
-$size-font-scale-large: 2rem; // fix this - not real - the large size of the font
-$size-font-scale-base: 1rem; // fix this - not real - the base size of the font
+$font-desktop-subtitle-line-height: 1rem * 1.2 * 1 * 1.25; // desktop subtitle line height
+$font-desktop-subtitle-font-weight: 400; // the subtitle desktop font weight is 400
+$font-desktop-placeholder-font-size: 1rem * 1.2 * 1; // all placeholders
+$font-desktop-placeholder-line-height: 1rem * 1.2 * 1 * 1; // desktop placeholder line height
+$font-desktop-placeholder-font-weight: 400; // the placeholder desktop font weight is 400
+$font-desktop-placeholder-multi-font-size: 1rem * 1.2 * 1; // all multi-line placeholders
+$font-desktop-placeholder-multi-line-height: 1rem * 1.2 * 1 * 1.25; // desktop multi-line placeholders line height
+$font-desktop-placeholder-multi-font-weight: 400; // the multi-line placeholder desktop font weight is 400
+$font-desktop-suffix-font-size: 1rem * 1.2 * 0.9; // all suffixes
+$font-desktop-suffix-line-height: 1rem * 1.2 * 0.9 * 1; // desktop suffix line height
+$font-desktop-suffix-font-weight: 400; // the suffix desktop font weight is 400
+$font-desktop-hint-text-font-size: 1rem * 1.2 * 1; // all hint texts
+$font-desktop-hint-text-line-height: 1rem * 1.2 * 1 * 1.15; // desktop hint text line height
+$font-desktop-hint-text-font-weight: 400; // the hint text desktop font weight is 400
+$font-desktop-error-text-font-size: 1rem * 1.2 * 1; // all error texts
+$font-desktop-error-text-line-height: 1rem * 1.2 * 1 * 1.25; // desktop error text line height
+$font-desktop-error-text-font-weight: 400; // the error text desktop font weight is 400
+$font-desktop-label-font-size: 1rem * 1.2 * 0.95; // all labels
+$font-desktop-label-line-height: 1rem * 1.2 * 0.95 * 1; // desktop label line height
+$font-desktop-label-font-weight: 500; // the label desktop font weight is 500
+$font-desktop-validation-text-font-size: 1rem * 1.2 * 0.85; // all validation texts
+$font-desktop-validation-text-line-height: 1rem * 1.2 * 0.85 * 1; // desktop validation text line height
+$font-desktop-validation-text-font-weight: 500; // the validation text desktop font weight is 500
+$font-desktop-button-text-font-size: 1rem * 1.2 * 0.85; // all button texts
+$font-desktop-button-text-line-height: 1rem * 1.2 * 0.85 * 1; // desktop button text line height
+$font-desktop-button-text-font-weight: 500; // the button text desktop font weight is 500
+$font-desktop-terms-conditions-text-font-size: 1rem * 1.2 * 0.85; // all terms and conditions
+$font-desktop-terms-conditions-text-line-height: 1rem * 1.2 * 0.85 * 1.25; // desktop terms and conditions line height
+$font-desktop-terms-conditions-text-font-weight: 400; // the terms and conditions desktop font weight is 400
+$font-desktop-terms-conditions-link-font-size: 1rem * 1.2 * 0.85; // all links
+$font-desktop-terms-conditions-link-line-height: 1rem * 1.2 * 0.85 * 1; // desktop link line height
+$font-desktop-terms-conditions-link-font-weight: 500; // the link desktop font weight is 500
+$font-desktop-co-branding-font-size: 1rem * 1.2 * 0.75; // all co-branding texts
+$font-desktop-co-branding-line-height: 1rem * 1.2 * 0.75 * 1; // desktop co-branding line height
+$font-desktop-co-branding-font-weight: 400; // the co-branding desktop font weight is 400
+$font-desktop-badge-font-size: 1rem * 1.2 * 0.85; // all badges
+$font-desktop-badge-line-height: 1rem * 1.2 * 0.85 * 1; // desktop badge line height
+$font-desktop-badge-font-weight: 500; // the badge desktop font weight is 500
+$font-desktop-progress-indicator-font-size: 1rem * 1.2 * 0.85; // all progress indicators
+$font-desktop-progress-indicator-line-height: 1rem * 1.2 * 0.85 * 1; // desktop progress indicator line height
+$font-desktop-progress-indicator-font-weight: 500; // the progress indicator desktop font weight is 500
+$font-mobile-form-title-font-size: 1rem * 1 * 1.5; // all form titles
+$font-mobile-form-title-line-height: 1rem * 1 * 1.5 * 1.35; // mobile form title line height
+$font-mobile-form-title-font-weight: 500; // the from title font weight is 500
+$font-mobile-title-font-size: 1rem * 1 * 1.15; // all question titles
+$font-mobile-title-line-height: 1rem * 1 * 1.15 * 1.3; // mobile title line height
+$font-mobile-title-font-weight: 500; // the title font weight is 500
+$font-mobile-subtitle-font-size: 1rem * 1 * 1; // all subtitles
+$font-mobile-subtitle-line-height: 1rem * 1 * 1 * 1.25; // mobile subtitle line height
+$font-mobile-subtitle-font-weight: 400; // the subtitle mobile font weight is 400
+$font-mobile-placeholder-font-size: 1rem * 1 * 1; // all placeholders
+$font-mobile-placeholder-line-height: 1rem * 1 * 1 * 1; // mobile placeholder line height
+$font-mobile-placeholder-font-weight: 400; // the placeholder mobile font weight is 400
+$font-mobile-placeholder-multi-font-size: 1rem * 1 * 1; // all multi-line placeholders
+$font-mobile-placeholder-multi-line-height: 1rem * 1 * 1 * 1.25; // mobile multi-line placeholders line height
+$font-mobile-placeholder-multi-font-weight: 400; // the multi-line placeholder mobile font weight is 400
+$font-mobile-suffix-font-size: 1rem * 1 * 0.9; // all suffixes
+$font-mobile-suffix-line-height: 1rem * 1 * 0.9 * 1; // mobile suffix line height
+$font-mobile-suffix-font-weight: 400; // the suffix mobile font weight is 400
+$font-mobile-hint-text-font-size: 1rem * 1 * 1; // all hint texts
+$font-mobile-hint-text-line-height: 1rem * 1 * 1 * 1.15; // mobile hint text line height
+$font-mobile-hint-text-font-weight: 400; // the hint text mobile font weight is 400
+$font-mobile-error-text-font-size: 1rem * 1 * 1; // all error texts
+$font-mobile-error-text-line-height: 1rem * 1 * 1 * 1.25; // mobile error text line height
+$font-mobile-error-text-font-weight: 400; // the error text mobile font weight is 400
+$font-mobile-label-font-size: 1rem * 1 * 0.95; // all labels
+$font-mobile-label-line-height: 1rem * 1 * 0.95 * 1; // mobile label line height
+$font-mobile-label-font-weight: 500; // the label mobile font weight is 500
+$font-mobile-validation-text-font-size: 1rem * 1 * 0.9; // all validation texts
+$font-mobile-validation-text-line-height: 1rem * 1 * 0.9 * 1; // mobile validation text line height
+$font-mobile-validation-text-font-weight: 500; // the validation text mobile font weight is 500
+$font-mobile-button-text-font-size: 1rem * 1 * 1; // all button texts
+$font-mobile-button-text-line-height: 1rem * 1 * 1 * 1; // mobile button text line height
+$font-mobile-button-text-font-weight: 500; // the button text mobile font weight is 500
+$font-mobile-terms-conditions-text-font-size: 1rem * 1 * 0.75; // all terms and conditions
+$font-mobile-terms-conditions-text-line-height: 1rem * 1 * 0.75 * 1.5; // mobile terms and conditions line height
+$font-mobile-terms-conditions-text-font-weight: 400; // the terms and conditions mobile font weight is 400
+$font-mobile-terms-conditions-link-font-size: 1rem * 1 * 0.75; // all links
+$font-mobile-terms-conditions-link-line-height: 1rem * 1 * 0.75 * 1.5; // mobile link line height
+$font-mobile-terms-conditions-link-font-weight: 500; // the link mobile font weight is 500
+$font-mobile-co-branding-font-size: 1rem * 1 * 0.75; // all co-branding texts
+$font-mobile-co-branding-line-height: 1rem * 1 * 0.75 * 1; // mobile co-branding line height
+$font-mobile-co-branding-font-weight: 400; // the co-branding mobile font weight is 400
+$font-mobile-badge-font-size: 1rem * 1 * 0.1; // all badges
+$font-mobile-badge-line-height: 1rem * 1 * 0.1 * 1; // mobile badge line height
+$font-mobile-badge-font-weight: 500; // the badge mobile font weight is 500
+$font-mobile-progress-indicator-font-size: 1rem * 1 * 0.85; // all progress indicators
+$font-mobile-progress-indicator-line-height: 1rem * 1 * 0.85 * 1; // mobile progress indicator line height
+$font-mobile-progress-indicator-font-weight: 500; // the progress indicator mobile font weight is 500

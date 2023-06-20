@@ -1,0 +1,58 @@
+{
+    "dimension": {
+        "base": {"value": "1rem"},
+        "space": {
+            "0" : {
+                "value": "{dimension.base} * 0",
+                "comment": "base space size 0",
+                "type": "dimension"
+            },
+            "6" : {
+                "value": "{dimension.base} * 0.625",
+                "comment": "base space size 6",
+                "type": "dimension"
+            },
+            "12" : {
+                "value": "{dimension.base} * 0.125",
+                "comment": "base space size 12",
+                "type": "dimension"
+            },
+            "25" : {
+                "value": "{dimension.base} * 0.25",
+                "comment": "base space size 25",
+                "type": "dimension"
+            },
+            "50" : {
+                "value": "{dimension.base} * 0.5",
+                "comment": "base space size 50",
+                "type": "dimension"
+            },
+            "75" : {
+                "value": "{dimension.base} * 0.75",
+                "comment": "base space size 75",
+                "type": "dimension"
+            },
+            "100" : {
+                "value": "{dimension.base} * 1",
+                "comment": "base space size 100",
+                "type": "dimension"
+            },
+            "200" : {
+                "value": "{dimension.base} * 2",
+                "comment": "base space size 200",
+                "type": "dimension"
+            },
+            "300" : {
+                "value": "{dimension.base} * 3",
+                "comment": "base space size 300",
+                "type": "dimension"
+            },
+            "400" : {
+                "value": "{dimension.base} * 4",
+                "comment": "base space size 400",
+                "type": "dimension"
+            }
+      }
+
+    }
+  }

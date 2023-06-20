@@ -1,0 +1,282 @@
+{
+    "font": {
+        "desktop": {
+            "form-title": {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1.6",
+                    "comment": "all form titles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.form-title.font-size} * 1.4",
+                    "comment": "desktop form title line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the from title font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "title": {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1.25",
+                    "comment": "all question titles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.title.font-size} * 1.35",
+                    "comment": "desktop title line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the title font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "subtitle": {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1",
+                    "comment": "all subtitles",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.subtitle.font-size} * 1.25",
+                    "comment": "desktop subtitle line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the subtitle desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "placeholder" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1",
+                    "comment": "all placeholders",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.placeholder.font-size} * 1",
+                    "comment": "desktop placeholder line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the placeholder desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "placeholder-multi" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1",
+                    "comment": "all multi-line placeholders",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.placeholder-multi.font-size} * 1.25",
+                    "comment": "desktop multi-line placeholders line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the multi-line placeholder desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "suffix" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.9",
+                    "comment": "all suffixes",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.suffix.font-size} * 1",
+                    "comment": "desktop suffix line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the suffix desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "hint-text" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1",
+                    "comment": "all hint texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.hint-text.font-size} * 1.15",
+                    "comment": "desktop hint text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the hint text desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "error-text" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 1",
+                    "comment": "all error texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.error-text.font-size} * 1.25",
+                    "comment": "desktop error text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the error text desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "label" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.95",
+                    "comment": "all labels",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.label.font-size} * 1",
+                    "comment": "desktop label line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the label desktop font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "validation-text" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.85",
+                    "comment": "all validation texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.validation-text.font-size} * 1",
+                    "comment": "desktop validation text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the validation text desktop font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "button-text" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.85",
+                    "comment": "all button texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.button-text.font-size} * 1",
+                    "comment": "desktop button text line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the button text desktop font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "terms-conditions" : {
+                "text" : {
+                    "font-size" : {
+                        "value": "{font.base.desktop.font-size} * 0.85",
+                        "comment": "all terms and conditions",
+                        "type": "font-size"
+                    },
+                    "line-height": {
+                        "value": "{font.desktop.terms-conditions.text.font-size} * 1.25",
+                        "comment": "desktop terms and conditions line height",
+                        "type": "line-height"
+                    },
+                    "font-weight": {
+                        "value": "{font.base.global.font-weight.normal}",
+                        "comment": "the terms and conditions desktop font weight is 400",
+                        "type": "font-weight"
+                    }
+                },
+                "link" : {
+                    "font-size" : {
+                        "value": "{font.base.desktop.font-size} * 0.85",
+                        "comment": "all links",
+                        "type": "font-size"
+                    },
+                    "line-height": {
+                        "value": "{font.desktop.terms-conditions.link.font-size} * 1",
+                        "comment": "desktop link line height",
+                        "type": "line-height"
+                    },
+                    "font-weight": {
+                        "value": "{font.base.global.font-weight.medium}",
+                        "comment": "the link desktop font weight is 500",
+                        "type": "font-weight"
+                    }
+                }     
+            },
+            "co-branding" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.75",
+                    "comment": "all co-branding texts",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.co-branding.font-size} * 1",
+                    "comment": "desktop co-branding line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.normal}",
+                    "comment": "the co-branding desktop font weight is 400",
+                    "type": "font-weight"
+                }
+            },
+            "badge" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.85",
+                    "comment": "all badges",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.badge.font-size} * 1",
+                    "comment": "desktop badge line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the badge desktop font weight is 500",
+                    "type": "font-weight"
+                }
+            },
+            "progress-indicator" : {
+                "font-size" : {
+                    "value": "{font.base.desktop.font-size} * 0.85",
+                    "comment": "all progress indicators",
+                    "type": "font-size"
+                },
+                "line-height": {
+                    "value": "{font.desktop.progress-indicator.font-size} * 1",
+                    "comment": "desktop progress indicator line height",
+                    "type": "line-height"
+                },
+                "font-weight": {
+                    "value": "{font.base.global.font-weight.medium}",
+                    "comment": "the progress indicator desktop font weight is 500",
+                    "type": "font-weight"
+                }
+            }
+        }
+    }
+}
+
+

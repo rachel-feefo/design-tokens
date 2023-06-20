@@ -1,0 +1,32 @@
+{
+    "dimension": {
+        "desktop": {
+            "form-title": {
+                "padding" : {
+                    "value": "{dimension.space.6}",
+                    "comment": "all form titles padding",
+                    "type": "dimension"
+                },
+                "margin": {
+                    "value": "{dimension.space.0}",
+                    "comment": "all form titles margin",
+                    "type": "dimension"
+                }
+            },
+            "title": {
+                "padding" : {
+                    "value": "{dimension.space.0}",
+                    "comment": "all titles padding",
+                    "type": "dimension"
+                },
+                "margin": {
+                    "value": "{dimension.space.0}",
+                    "comment": "all titles margin",
+                    "type": "dimension"
+                }
+            }
+        }
+    }
+}
+
+
