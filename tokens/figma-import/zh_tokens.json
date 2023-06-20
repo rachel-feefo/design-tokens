@@ -94,10 +94,7 @@
         "$value": "#292F36",
         "$type": "color"
       },
-      "dropdown-border-gradient": {
-        "$value": "linear-gradient(90deg, #9D9BFC 100%, #9D9BFC 0%)",
-        "$type": "gradient"
-      },
+
       "dropdown-border-default": {
         "$value": "#BCC0C3",
         "$type": "color"
@@ -105,10 +102,6 @@
       "dropdown-icon": {
         "$value": "#292F36",
         "$type": "color"
-      },
-      "dropdown-shadow": {
-        "$value": "0 4px 10px 0 #9D9BFC 50%",
-        "$type": "shadow"
       },
       "dropdown-disabled-bg": {
         "$value": "#F7F9FA",
@@ -121,10 +114,6 @@
       "dropdown-disabled-icon": {
         "$value": "#F7F9FA",
         "$type": "color"
-      },
-      "form-shadow": {
-        "$value": "0 2px 8px 0 #9D9BFC 14%",
-        "$type": "shadow"
       },
       "h1": {
         "$value": {
