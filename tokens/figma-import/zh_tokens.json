@@ -188,22 +188,28 @@
         "$value": "Aeonik",
         "$type": "fontFamilies"
       },
-      "font": {
+
+
+      "fontSizes": {
         "base-font-size" : {
-            "value": "1",
-            "comment": "the base font size is 1rem or 16px"
+            "$value": "1",
+            "$description": "the base font size is 1rem or 16px",
+            "$type": "fontSizes"
         },
         "desktop-base-font-size": {
-            "value": "1.2",
-            "comment": "desktop base font size"
+            "$value": "1.2",
+            "$description": "desktop base font size",
+            "$type": "fontSizes"
         },
         "desktop-title" : {
-            "value": "{desktop-base-font-size} * 1.25",
-            "comment": "all titles"
+            "$value": "{desktop-base-font-size} * 1.25",
+            "$description": "all titles",
+            "$type": "fontSizes"
         },
         "desktop-subtitle": {
-            "value": "{desktop-base-font-size} * 1",
-            "comment": "all subtitles"
+            "$value": "{desktop-base-font-size} * 1",
+            "$description": "all subtitles",
+            "$type": "fontSizes"
         }
     }
 }
