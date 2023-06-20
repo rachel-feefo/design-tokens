@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rachel-feefo/design-tokens/issues"
   },
-  "homepage": "https://github.com/rachel-feefo/design-tokens#readme"
+  "homepage": "https://github.com/rachel-feefo/design-tokens#readme",
+  "dependencies": {
+    "style-dictionary": "^3.8.0"
+  }
 }

@@ -1,0 +1,89 @@
+{
+  "deeper-blue": {
+    "value": "#9D9BFC"
+  },
+  "pale-blue": {
+    "value": "#4F4CFA"
+  },
+  "pale-pale-blue": {
+    "value": "#9D9BFC"
+  },
+  "feefo-yellow": {
+    "value": "#FFD100"
+  },
+  "passionate-pink": {
+    "value": "#FDD0F6"
+  },
+  "white": {
+    "value": "#FFFFFF"
+  },
+  "black": {
+    "value": "#000000"
+  },
+  "off-black": {
+    "value": "#292F36"
+  },
+  "off-off-black": {
+    "value": "#4A5057"
+  },
+  "carbon": {
+    "value": "#6F7782"
+  },
+  "silver": {
+    "value": "#BCC0C3"
+  },
+  "pale-silver": {
+    "value": "#F7F9FA"
+  },
+  "cobalt-blue": {
+    "value": "#E2EAF4"
+  },
+  "cobalt-blue-light": {
+    "value": "#F0F3F7"
+  },
+  "error": {
+    "value": "#BF2600"
+  },
+  "success": {
+    "value": "#227358"
+  },
+  "warning": {
+    "value": "#292F36"
+  },
+  "focus": {
+    "value": "#5E9ED6"
+  },
+  "error-background": {
+    "value": "#FFEDE9"
+  },
+  "success-background": {
+    "value": "#BF2600"
+  },
+  "warning-background": {
+    "value": "#292F36"
+  },
+  "warning-text": {
+    "value": "#7A4300"
+  },
+  "dropdown-font-placeholder": {
+    "value": "{off-off-black}"
+  },
+  "dropdown-font-selected": {
+    "value": "{off-black}"
+  },
+  "dropdown-border-default": {
+    "value": "{silver}"
+  },
+  "dropdown-icon": {
+    "value": "{off-black}"
+  },
+  "dropdown-disabled-bg": {
+    "value": "{pale-silver}"
+  },
+  "dropdown-disabled-text": {
+    "value": "{dropdown-disabled-bg}"
+  },
+  "dropdown-disabled-icon": {
+    "value": "{dropdown-disabled-bg}"
+  }
+}
