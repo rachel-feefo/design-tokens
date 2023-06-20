@@ -1,0 +1,83 @@
+{
+    "font": {
+        "font-global": {
+            "font-size": {
+                "$value": "1rem",
+                "$description": "the base font size is 1rem or 16px",
+                "$type": "font-size"
+            },
+            "line-height": {
+                "$value": "{font.font-global.font-size} * 1.25",
+                "$description": "the base font size is 1rem or 16px",
+                "$type": "line-height"
+            },
+            "font-weight": {
+                "normal": {
+                    "$value": "400",
+                    "$description": "the normal base font weight is 400",
+                    "$type": "font-weight"
+                },
+                "medium": {
+                    "$value": "500",
+                    "$description": "the medium base font weight is 500",
+                    "$type": "font-weight"
+                }   
+            }
+        },
+
+        "desktop": {
+            "base": {
+                "font-size": {
+                    "$value": "{font.font-global.font-size} * 1.2",
+                    "$description": "desktop base font size",
+                    "$type": "font-size"
+                },
+                "line-height": {
+                    "$value": "{font.font-global.line-height} * 1.2",
+                    "$description": "desktop base line height",
+                    "$type": "line-height"
+                },
+                "font-weight": {
+                    "$value": "{font.font-global.font-weight.normal}",
+                    "$description": "the base desktop font weight is 400",
+                    "$type": "font-weight"
+                }
+            },
+            "title": {
+                "font-size" : {
+                    "$value": "{font.desktop.base.font-size} * 1.25",
+                    "$description": "all titles",
+                    "$type": "font-size"
+                },
+                "line-height": {
+                    "$value": "{font.desktop.title.font-size} * 1.35",
+                    "$description": "desktop base line height",
+                    "$type": "line-height"
+                },
+                "font-weight": {
+                    "$value": "{font.font-global.font-weight.medium}",
+                    "$description": "the base font weight is 400",
+                    "$type": "font-weight"
+                }
+            },
+            "subtitle": {
+                "font-size" : {
+                    "$value": "{font.desktop.base.font-size} * 1",
+                    "$description": "all subtitles",
+                    "$type": "font-size"
+                },
+                "line-height": {
+                    "$value": "{font.desktop.subtitle.font-size} * 1.25",
+                    "$description": "desktop base line height",
+                    "$type": "line-height"
+                },
+                "font-weight": {
+                    "$value": "{font.font-global.font-weight.normal}",
+                    "$description": "the base desktop font weight is 400",
+                    "$type": "font-weight"
+                }
+            }
+        }
+    }
+}
+
